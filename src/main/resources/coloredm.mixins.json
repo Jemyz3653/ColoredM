@@ -8,6 +8,8 @@
 		"SeaPickleBlockMixin"
 	],
 	"client": [
+		"client.BbeChestCompatMixin",
+		"client.BbePotCompatMixin",
 		"client.BlockStateDefinitionsMixin",
 		"client.ChestRendererMixin",
 		"client.DecoratedPotRendererAccessor",

@@ -16,12 +16,15 @@ import java.util.Collections;
 import java.util.EnumMap;
 import java.util.IdentityHashMap;
 import java.util.LinkedHashMap;
+import java.util.List;
 import java.util.Map;
 import java.util.function.BiFunction;
 import java.util.function.Function;
+import net.fabricmc.fabric.api.event.registry.RegistryEntryAddedCallback;
 import net.minecraft.core.Registry;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.core.registries.Registries;
+import net.minecraft.resources.Identifier;
 import net.minecraft.resources.ResourceKey;
 import net.minecraft.world.item.DyeColor;
 import net.minecraft.world.level.block.Block;
@@ -35,6 +38,7 @@ public final class CmBlocks {
    private static final Map<Block, Family> FAMILY_OF = new IdentityHashMap<>();
    private static final Map<Block, ColoredPottedBlock> POTTED_BY_VANILLA = new LinkedHashMap<>();
    private static final Map<Block, ColoredPottedBlock> POTTED_BY_PLANT = new IdentityHashMap<>();
+   private static final List<ColoredPottedBlock> MODDED_POTTED = new ArrayList<>();
 
    private CmBlocks() {
    }
@@ -95,6 +99,53 @@ public final class CmBlocks {
       return Collections.unmodifiableMap(POTTED_BY_VANILLA);
    }
 
+   public static List<ColoredPottedBlock> moddedPotted() {
+      synchronized (MODDED_POTTED) {
+         return List.copyOf(MODDED_POTTED);
+      }
+   }
+
+   public static void registerModdedPots() {
+      ArrayList<FlowerPotBlock> var0 = new ArrayList<>();
+
+      for (Block var2 : BuiltInRegistries.BLOCK) {
+         if (isModdedPot(BuiltInRegistries.BLOCK.getKey(var2), var2)) {
+            var0.add((FlowerPotBlock)var2);
+         }
+      }
+
+      for (FlowerPotBlock var4 : var0) {
+         registerModdedPot(BuiltInRegistries.BLOCK.getKey(var4), var4);
+      }
+
+      RegistryEntryAddedCallback.event(BuiltInRegistries.BLOCK).register((var0x, var1, var2x) -> {
+         if (isModdedPot(var1, var2x)) {
+            registerModdedPot(var1, (FlowerPotBlock)var2x);
+         }
+      });
+   }
+
+   private static boolean isModdedPot(Identifier var0, Block var1) {
+      return var1 instanceof FlowerPotBlock var2
+         && var2.getPotted() != Blocks.AIR
+         && !var0.getNamespace().equals("minecraft")
+         && !var0.getNamespace().equals("coloredm")
+         && !POTTED_BY_VANILLA.containsKey(var1);
+   }
+
+   private static void registerModdedPot(Identifier var0, FlowerPotBlock var1) {
+      ColoredPottedBlock var2 = (ColoredPottedBlock)register(
+         var0.getNamespace() + "/" + var0.getPath(),
+         var1x -> new ColoredPottedBlock(var1.getPotted(), var1, true, var1x),
+         Properties.ofFullCopy(var1).noLootTable()
+      );
+      POTTED_BY_VANILLA.put(var1, var2);
+      POTTED_BY_PLANT.putIfAbsent(var1.getPotted(), var2);
+      synchronized (MODDED_POTTED) {
+         MODDED_POTTED.add(var2);
+      }
+   }
+
    public static void init() {
    }
 
@@ -117,7 +168,9 @@ public final class CmBlocks {
 
       for (FlowerPotBlock var6 : var0) {
          String var7 = BuiltInRegistries.BLOCK.getKey(var6).getPath();
-         ColoredPottedBlock var4 = (ColoredPottedBlock)register(var7, var1 -> new ColoredPottedBlock(var6.getPotted(), var6, var1), Properties.ofFullCopy(var6));
+         ColoredPottedBlock var4 = (ColoredPottedBlock)register(
+            var7, var1 -> new ColoredPottedBlock(var6.getPotted(), var6, false, var1), Properties.ofFullCopy(var6)
+         );
          POTTED_BY_VANILLA.put(var6, var4);
          POTTED_BY_PLANT.put(var6.getPotted(), var4);
       }

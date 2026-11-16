@@ -5,6 +5,7 @@ import io.github.jemyz3653.coloredm.client.dye.DyedSpriteSource;
 import io.github.jemyz3653.coloredm.registry.CmEntities;
 import io.github.jemyz3653.coloredm.registry.CmFluids;
 import net.fabricmc.api.ClientModInitializer;
+import net.fabricmc.fabric.api.client.model.loading.v1.ModelLoadingPlugin;
 import net.fabricmc.fabric.api.client.render.fluid.v1.FluidRenderingRegistry;
 import net.fabricmc.fabric.api.client.rendering.v1.EntityRendererRegistry;
 import net.fabricmc.fabric.api.client.rendering.v1.SpriteSourceRegistry;
@@ -19,6 +20,7 @@ public final class ColoredMClient implements ClientModInitializer {
    @Override
    public void onInitializeClient() {
       SpriteSourceRegistry.register(CmIds.id("dyed"), DyedSpriteSource.MAP_CODEC);
+      ModelLoadingPlugin.register(new ModdedPotModels());
 
       for (DyeColor var4 : DyeColor.values()) {
          EntityRendererRegistry.register(CmEntities.itemFrame(var4), ItemFrameRenderer::new);

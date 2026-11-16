@@ -34,6 +34,7 @@ public final class ColoredM implements ModInitializer {
    @Override
    public void onInitialize() {
       CmBlocks.init();
+      CmBlocks.registerModdedPots();
       CmFluids.init();
       CmEntities.init();
       CmItems.init();
@@ -66,7 +67,12 @@ public final class ColoredM implements ModInitializer {
          }
       });
       Dyeing.register();
-      LOGGER.info("ColoredM: {} items, {} plants for dyed flower pots", CmItems.all().size(), CmBlocks.potted().size());
+      LOGGER.info(
+         "ColoredM: {} items, {} plants for dyed flower pots ({} from other mods so far)",
+         CmItems.all().size(),
+         CmBlocks.potted().size(),
+         CmBlocks.moddedPotted().size()
+      );
    }
 
    private static void addValidBlocks(BlockEntityType<?> var0, Family var1) {

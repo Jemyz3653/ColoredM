@@ -1,8 +1,11 @@
 package io.github.jemyz3653.coloredm.block;
 
 import io.github.jemyz3653.coloredm.registry.CmBlocks;
+import java.util.List;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
+import net.minecraft.network.chat.Component;
+import net.minecraft.network.chat.MutableComponent;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.sounds.SoundSource;
 import net.minecraft.util.Prediction;
@@ -36,12 +39,18 @@ public class ColoredPottedBlock extends Block {
    private static final VoxelShape SHAPE = Block.column(6.0, 0.0, 6.0);
    private final Block plant;
    private final Block vanillaPotted;
+   private final boolean modded;
 
-   public ColoredPottedBlock(Block var1, Block var2, Properties var3) {
-      super(var3);
+   public ColoredPottedBlock(Block var1, Block var2, boolean var3, Properties var4) {
+      super(var4);
       this.plant = var1;
       this.vanillaPotted = var2;
+      this.modded = var3;
       this.registerDefaultState(this.stateDefinition.any().setValue(COLOR, DyeColor.WHITE));
+   }
+
+   public boolean isModded() {
+      return this.modded;
    }
 
    public Block plant() {
@@ -83,6 +92,16 @@ public class ColoredPottedBlock extends Block {
       var2.setBlockAndUpdate(var3, CmBlocks.flowerPot(var1.getValue(COLOR)).defaultBlockState());
       var2.gameEvent(var4, GameEvent.BLOCK_CHANGE, var3);
       return InteractionResult.SUCCESS;
+   }
+
+   @Override
+   protected List<ItemStack> getDrops(BlockState var1, net.minecraft.world.level.storage.loot.LootParams.Builder var2) {
+      return !this.modded ? super.getDrops(var1, var2) : List.of(new ItemStack(CmBlocks.flowerPot(var1.getValue(COLOR))), new ItemStack(this.plant));
+   }
+
+   @Override
+   public MutableComponent getName() {
+      return this.modded ? Component.translatable("block.coloredm.potted_plant", this.vanillaPotted.getName()) : super.getName();
    }
 
    @Override

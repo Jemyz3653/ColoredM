@@ -1,7 +1,21 @@
-# ColoredM 1.0.0
+# ColoredM 1.0.1
 
-Initial release for Minecraft 26.3, recovered from the original release JAR. Adds 16 colors to flower pots, decorated pots, chests, barrels, crafting tables, ladders, lanterns, sea pickles, item frames, saddles and water.
+Проект восстановлен из релизного JAR ColoredM 1.0.1 для Minecraft 26.3.
 
-Install Fabric API and the same mod JAR on the client and server. To build the recovered sources, use JDK 25 and run `./gradlew build` (Windows PowerShell: `.\gradlew.bat build`).
+- `src/main/java` содержит 46 Java-файлов, декомпилированных Vineflower. В нескольких местах пришлось восстановить параметры типов и приведения для Mixin. Имена части локальных переменных и комментарии из исходного проекта в JAR отсутствуют.
+- `src/main/resources` содержит 1 868 файлов из оригинального JAR, включая модели, текстуры, рецепты, локализации и настройки Mixin. Файлы ресурсов совпадают побайтно с релизом.
+- В проекте сохранены идентификаторы мода и исходная лицензия MIT.
 
-Author: Jemyz3653. MIT License.
+## Сборка
+
+Понадобится JDK 25. В PowerShell из папки проекта выполни команду.
+
+```powershell
+.\gradlew.bat build
+```
+
+В Linux и macOS используй `./gradlew build`. Gradle скачивает Minecraft 26.3, Fabric Loader 0.19.5 и Fabric API 0.163.0+26.3. Готовый мод появляется в `build/libs/coloredm-1.0.1.jar`.
+
+Исходники успешно скомпилированы через `javac` 25. Пересобранный JAR проверен на клиенте и выделенном сервере Minecraft 26.3 с Lily Bloom 1.3.0. Цветная кувшинка в горшке и цветной сундук отображались в игре, содержимое сундука подтвердилось на сервере.
+
+Полный запуск Gradle в среде восстановления остановился при скачивании Fabric Loom.

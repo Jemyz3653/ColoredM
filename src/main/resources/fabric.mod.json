@@ -1,7 +1,7 @@
 {
 	"schemaVersion": 1,
 	"id": "coloredm",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"name": "ColoredM",
 	"description": "16 dye colors for flower pots, decorated pots, chests, barrels, crafting tables, ladders, lanterns, sea pickles, item frames, saddles and water. Dye a placed block with a right click, or craft the item with a dye. The colors are made from your resource pack's own textures, so packs like Faithful get dyed blocks too. Required on both server and client.",
 	"authors": [
