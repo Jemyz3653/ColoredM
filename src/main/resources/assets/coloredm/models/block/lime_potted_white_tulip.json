@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/potted_white_tulip",
+  "textures": {
+    "flowerpot": "coloredm:block/lime_flower_pot",
+    "particle": "coloredm:block/lime_flower_pot"
+  }
+}

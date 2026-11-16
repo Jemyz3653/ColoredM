@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:block/barrel",
+  "textures": {
+    "top": "coloredm:block/pink_barrel_top",
+    "bottom": "coloredm:block/pink_barrel_bottom",
+    "side": "coloredm:block/pink_barrel_side",
+    "particle": "coloredm:block/pink_barrel_side"
+  }
+}

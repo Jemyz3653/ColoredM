@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/crafting_table",
+  "textures": {
+    "down": "coloredm:block/green_oak_planks",
+    "east": "coloredm:block/green_crafting_table_side",
+    "north": "coloredm:block/green_crafting_table_front",
+    "particle": "coloredm:block/green_crafting_table_front",
+    "south": "coloredm:block/green_crafting_table_side",
+    "up": "coloredm:block/green_crafting_table_top",
+    "west": "coloredm:block/green_crafting_table_front"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "values": [
+    "minecraft:crafting_table",
+    "coloredm:white_crafting_table",
+    "coloredm:orange_crafting_table",
+    "coloredm:magenta_crafting_table",
+    "coloredm:light_blue_crafting_table",
+    "coloredm:yellow_crafting_table",
+    "coloredm:lime_crafting_table",
+    "coloredm:pink_crafting_table",
+    "coloredm:gray_crafting_table",
+    "coloredm:light_gray_crafting_table",
+    "coloredm:cyan_crafting_table",
+    "coloredm:purple_crafting_table",
+    "coloredm:blue_crafting_table",
+    "coloredm:brown_crafting_table",
+    "coloredm:green_crafting_table",
+    "coloredm:red_crafting_table",
+    "coloredm:black_crafting_table"
+  ]
+}

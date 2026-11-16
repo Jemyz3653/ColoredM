@@ -1,0 +1,21 @@
+{
+  "values": [
+    "minecraft:item_frame",
+    "coloredm:white_item_frame",
+    "coloredm:orange_item_frame",
+    "coloredm:magenta_item_frame",
+    "coloredm:light_blue_item_frame",
+    "coloredm:yellow_item_frame",
+    "coloredm:lime_item_frame",
+    "coloredm:pink_item_frame",
+    "coloredm:gray_item_frame",
+    "coloredm:light_gray_item_frame",
+    "coloredm:cyan_item_frame",
+    "coloredm:purple_item_frame",
+    "coloredm:blue_item_frame",
+    "coloredm:brown_item_frame",
+    "coloredm:green_item_frame",
+    "coloredm:red_item_frame",
+    "coloredm:black_item_frame"
+  ]
+}

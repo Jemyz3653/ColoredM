@@ -1,0 +1,13 @@
+{
+  "sources": [
+    {
+      "type": "coloredm:dyed",
+      "directories": [
+        {
+          "source": "entity/decorated_pot",
+          "mask": "terracotta"
+        }
+      ]
+    }
+  ]
+}

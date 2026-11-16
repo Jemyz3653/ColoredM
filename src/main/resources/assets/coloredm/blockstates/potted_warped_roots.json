@@ -1,0 +1,52 @@
+{
+  "variants": {
+    "color=white": {
+      "model": "coloredm:block/white_potted_warped_roots"
+    },
+    "color=orange": {
+      "model": "coloredm:block/orange_potted_warped_roots"
+    },
+    "color=magenta": {
+      "model": "coloredm:block/magenta_potted_warped_roots"
+    },
+    "color=light_blue": {
+      "model": "coloredm:block/light_blue_potted_warped_roots"
+    },
+    "color=yellow": {
+      "model": "coloredm:block/yellow_potted_warped_roots"
+    },
+    "color=lime": {
+      "model": "coloredm:block/lime_potted_warped_roots"
+    },
+    "color=pink": {
+      "model": "coloredm:block/pink_potted_warped_roots"
+    },
+    "color=gray": {
+      "model": "coloredm:block/gray_potted_warped_roots"
+    },
+    "color=light_gray": {
+      "model": "coloredm:block/light_gray_potted_warped_roots"
+    },
+    "color=cyan": {
+      "model": "coloredm:block/cyan_potted_warped_roots"
+    },
+    "color=purple": {
+      "model": "coloredm:block/purple_potted_warped_roots"
+    },
+    "color=blue": {
+      "model": "coloredm:block/blue_potted_warped_roots"
+    },
+    "color=brown": {
+      "model": "coloredm:block/brown_potted_warped_roots"
+    },
+    "color=green": {
+      "model": "coloredm:block/green_potted_warped_roots"
+    },
+    "color=red": {
+      "model": "coloredm:block/red_potted_warped_roots"
+    },
+    "color=black": {
+      "model": "coloredm:block/black_potted_warped_roots"
+    }
+  }
+}

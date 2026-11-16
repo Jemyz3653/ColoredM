@@ -1,0 +1,52 @@
+{
+  "variants": {
+    "color=white": {
+      "model": "coloredm:block/white_potted_poplar_sapling"
+    },
+    "color=orange": {
+      "model": "coloredm:block/orange_potted_poplar_sapling"
+    },
+    "color=magenta": {
+      "model": "coloredm:block/magenta_potted_poplar_sapling"
+    },
+    "color=light_blue": {
+      "model": "coloredm:block/light_blue_potted_poplar_sapling"
+    },
+    "color=yellow": {
+      "model": "coloredm:block/yellow_potted_poplar_sapling"
+    },
+    "color=lime": {
+      "model": "coloredm:block/lime_potted_poplar_sapling"
+    },
+    "color=pink": {
+      "model": "coloredm:block/pink_potted_poplar_sapling"
+    },
+    "color=gray": {
+      "model": "coloredm:block/gray_potted_poplar_sapling"
+    },
+    "color=light_gray": {
+      "model": "coloredm:block/light_gray_potted_poplar_sapling"
+    },
+    "color=cyan": {
+      "model": "coloredm:block/cyan_potted_poplar_sapling"
+    },
+    "color=purple": {
+      "model": "coloredm:block/purple_potted_poplar_sapling"
+    },
+    "color=blue": {
+      "model": "coloredm:block/blue_potted_poplar_sapling"
+    },
+    "color=brown": {
+      "model": "coloredm:block/brown_potted_poplar_sapling"
+    },
+    "color=green": {
+      "model": "coloredm:block/green_potted_poplar_sapling"
+    },
+    "color=red": {
+      "model": "coloredm:block/red_potted_poplar_sapling"
+    },
+    "color=black": {
+      "model": "coloredm:block/black_potted_poplar_sapling"
+    }
+  }
+}

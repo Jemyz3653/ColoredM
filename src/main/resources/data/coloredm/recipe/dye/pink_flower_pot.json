@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:crafting_transmute",
+  "category": "misc",
+  "group": "coloredm_flower_pot",
+  "input": "#coloredm:dyeable/flower_pot",
+  "material": "minecraft:pink_dye",
+  "result": {
+    "id": "coloredm:pink_flower_pot"
+  }
+}

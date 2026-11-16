@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/potted_open_eyeblossom",
+  "textures": {
+    "flowerpot": "coloredm:block/pink_flower_pot",
+    "particle": "coloredm:block/pink_flower_pot"
+  }
+}

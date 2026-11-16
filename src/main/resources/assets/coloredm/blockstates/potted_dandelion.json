@@ -1,0 +1,52 @@
+{
+  "variants": {
+    "color=white": {
+      "model": "coloredm:block/white_potted_dandelion"
+    },
+    "color=orange": {
+      "model": "coloredm:block/orange_potted_dandelion"
+    },
+    "color=magenta": {
+      "model": "coloredm:block/magenta_potted_dandelion"
+    },
+    "color=light_blue": {
+      "model": "coloredm:block/light_blue_potted_dandelion"
+    },
+    "color=yellow": {
+      "model": "coloredm:block/yellow_potted_dandelion"
+    },
+    "color=lime": {
+      "model": "coloredm:block/lime_potted_dandelion"
+    },
+    "color=pink": {
+      "model": "coloredm:block/pink_potted_dandelion"
+    },
+    "color=gray": {
+      "model": "coloredm:block/gray_potted_dandelion"
+    },
+    "color=light_gray": {
+      "model": "coloredm:block/light_gray_potted_dandelion"
+    },
+    "color=cyan": {
+      "model": "coloredm:block/cyan_potted_dandelion"
+    },
+    "color=purple": {
+      "model": "coloredm:block/purple_potted_dandelion"
+    },
+    "color=blue": {
+      "model": "coloredm:block/blue_potted_dandelion"
+    },
+    "color=brown": {
+      "model": "coloredm:block/brown_potted_dandelion"
+    },
+    "color=green": {
+      "model": "coloredm:block/green_potted_dandelion"
+    },
+    "color=red": {
+      "model": "coloredm:block/red_potted_dandelion"
+    },
+    "color=black": {
+      "model": "coloredm:block/black_potted_dandelion"
+    }
+  }
+}

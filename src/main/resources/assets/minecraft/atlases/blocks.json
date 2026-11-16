@@ -1,0 +1,22 @@
+{
+  "sources": [
+    {
+      "type": "coloredm:dyed",
+      "textures": {
+        "minecraft:block/barrel_side": "wood",
+        "minecraft:block/barrel_top": "wood",
+        "minecraft:block/barrel_top_open": "wood",
+        "minecraft:block/barrel_bottom": "wood",
+        "minecraft:block/crafting_table_top": "wood",
+        "minecraft:block/crafting_table_side": "wood",
+        "minecraft:block/crafting_table_front": "wood",
+        "minecraft:block/oak_planks": "wood",
+        "minecraft:block/ladder": "wood",
+        "minecraft:block/flower_pot": "terracotta",
+        "minecraft:block/sea_pickle": "pickle",
+        "minecraft:block/lantern": "flame",
+        "minecraft:block/birch_planks": "birch"
+      }
+    }
+  ]
+}

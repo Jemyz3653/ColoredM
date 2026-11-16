@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/potted_acacia_sapling",
+  "textures": {
+    "flowerpot": "coloredm:block/purple_flower_pot",
+    "particle": "coloredm:block/purple_flower_pot"
+  }
+}

@@ -1,0 +1,207 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "condition": {
+        "type": "minecraft:survives_explosion"
+      },
+      "entries": [
+        {
+          "type": "minecraft:alternatives",
+          "children": [
+            {
+              "type": "minecraft:item",
+              "name": "coloredm:white_flower_pot",
+              "condition": {
+                "type": "minecraft:match_block",
+                "blocks": "coloredm:potted_crimson_fungus",
+                "state": {
+                  "color": "white"
+                }
+              }
+            },
+            {
+              "type": "minecraft:item",
+              "name": "coloredm:orange_flower_pot",
+              "condition": {
+                "type": "minecraft:match_block",
+                "blocks": "coloredm:potted_crimson_fungus",
+                "state": {
+                  "color": "orange"
+                }
+              }
+            },
+            {
+              "type": "minecraft:item",
+              "name": "coloredm:magenta_flower_pot",
+              "condition": {
+                "type": "minecraft:match_block",
+                "blocks": "coloredm:potted_crimson_fungus",
+                "state": {
+                  "color": "magenta"
+                }
+              }
+            },
+            {
+              "type": "minecraft:item",
+              "name": "coloredm:light_blue_flower_pot",
+              "condition": {
+                "type": "minecraft:match_block",
+                "blocks": "coloredm:potted_crimson_fungus",
+                "state": {
+                  "color": "light_blue"
+                }
+              }
+            },
+            {
+              "type": "minecraft:item",
+              "name": "coloredm:yellow_flower_pot",
+              "condition": {
+                "type": "minecraft:match_block",
+                "blocks": "coloredm:potted_crimson_fungus",
+                "state": {
+                  "color": "yellow"
+                }
+              }
+            },
+            {
+              "type": "minecraft:item",
+              "name": "coloredm:lime_flower_pot",
+              "condition": {
+                "type": "minecraft:match_block",
+                "blocks": "coloredm:potted_crimson_fungus",
+                "state": {
+                  "color": "lime"
+                }
+              }
+            },
+            {
+              "type": "minecraft:item",
+              "name": "coloredm:pink_flower_pot",
+              "condition": {
+                "type": "minecraft:match_block",
+                "blocks": "coloredm:potted_crimson_fungus",
+                "state": {
+                  "color": "pink"
+                }
+              }
+            },
+            {
+              "type": "minecraft:item",
+              "name": "coloredm:gray_flower_pot",
+              "condition": {
+                "type": "minecraft:match_block",
+                "blocks": "coloredm:potted_crimson_fungus",
+                "state": {
+                  "color": "gray"
+                }
+              }
+            },
+            {
+              "type": "minecraft:item",
+              "name": "coloredm:light_gray_flower_pot",
+              "condition": {
+                "type": "minecraft:match_block",
+                "blocks": "coloredm:potted_crimson_fungus",
+                "state": {
+                  "color": "light_gray"
+                }
+              }
+            },
+            {
+              "type": "minecraft:item",
+              "name": "coloredm:cyan_flower_pot",
+              "condition": {
+                "type": "minecraft:match_block",
+                "blocks": "coloredm:potted_crimson_fungus",
+                "state": {
+                  "color": "cyan"
+                }
+              }
+            },
+            {
+              "type": "minecraft:item",
+              "name": "coloredm:purple_flower_pot",
+              "condition": {
+                "type": "minecraft:match_block",
+                "blocks": "coloredm:potted_crimson_fungus",
+                "state": {
+                  "color": "purple"
+                }
+              }
+            },
+            {
+              "type": "minecraft:item",
+              "name": "coloredm:blue_flower_pot",
+              "condition": {
+                "type": "minecraft:match_block",
+                "blocks": "coloredm:potted_crimson_fungus",
+                "state": {
+                  "color": "blue"
+                }
+              }
+            },
+            {
+              "type": "minecraft:item",
+              "name": "coloredm:brown_flower_pot",
+              "condition": {
+                "type": "minecraft:match_block",
+                "blocks": "coloredm:potted_crimson_fungus",
+                "state": {
+                  "color": "brown"
+                }
+              }
+            },
+            {
+              "type": "minecraft:item",
+              "name": "coloredm:green_flower_pot",
+              "condition": {
+                "type": "minecraft:match_block",
+                "blocks": "coloredm:potted_crimson_fungus",
+                "state": {
+                  "color": "green"
+                }
+              }
+            },
+            {
+              "type": "minecraft:item",
+              "name": "coloredm:red_flower_pot",
+              "condition": {
+                "type": "minecraft:match_block",
+                "blocks": "coloredm:potted_crimson_fungus",
+                "state": {
+                  "color": "red"
+                }
+              }
+            },
+            {
+              "type": "minecraft:item",
+              "name": "coloredm:black_flower_pot",
+              "condition": {
+                "type": "minecraft:match_block",
+                "blocks": "coloredm:potted_crimson_fungus",
+                "state": {
+                  "color": "black"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "rolls": 1
+    },
+    {
+      "condition": {
+        "type": "minecraft:survives_explosion"
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:crimson_fungus"
+        }
+      ],
+      "rolls": 1
+    }
+  ],
+  "random_sequence": "coloredm:blocks/potted_crimson_fungus"
+}

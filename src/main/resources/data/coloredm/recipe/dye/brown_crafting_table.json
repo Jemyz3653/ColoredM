@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:crafting_transmute",
+  "category": "misc",
+  "group": "coloredm_crafting_table",
+  "input": "#coloredm:dyeable/crafting_table",
+  "material": "minecraft:brown_dye",
+  "result": {
+    "id": "coloredm:brown_crafting_table"
+  }
+}

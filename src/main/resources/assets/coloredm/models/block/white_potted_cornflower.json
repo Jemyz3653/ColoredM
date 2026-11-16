@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/potted_cornflower",
+  "textures": {
+    "flowerpot": "coloredm:block/white_flower_pot",
+    "particle": "coloredm:block/white_flower_pot"
+  }
+}

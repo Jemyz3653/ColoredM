@@ -1,0 +1,23 @@
+{
+	"required": true,
+	"package": "io.github.jemyz3653.coloredm.mixin",
+	"compatibilityLevel": "JAVA_25",
+	"mixins": [
+		"CraftingMenuMixin",
+		"TransmuteRecipeMixin",
+		"SeaPickleBlockMixin"
+	],
+	"client": [
+		"client.BlockStateDefinitionsMixin",
+		"client.ChestRendererMixin",
+		"client.DecoratedPotRendererAccessor",
+		"client.DecoratedPotRendererMixin",
+		"client.ItemFrameRendererMixin",
+		"client.SpecialModelRenderersMixin",
+		"client.SpriteContentsAccessor",
+		"client.TextureManagerMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/dead_sea_pickle",
+  "textures": {
+    "all": "coloredm:block/orange_sea_pickle",
+    "particle": "coloredm:block/orange_sea_pickle"
+  }
+}

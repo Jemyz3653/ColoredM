@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/potted_wither_rose",
+  "textures": {
+    "flowerpot": "coloredm:block/red_flower_pot",
+    "particle": "coloredm:block/red_flower_pot"
+  }
+}

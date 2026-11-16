@@ -1,0 +1,12 @@
+{
+  "sources": [
+    {
+      "type": "coloredm:dyed",
+      "textures": {
+        "minecraft:entity/chest/normal": "wood",
+        "minecraft:entity/chest/normal_left": "wood",
+        "minecraft:entity/chest/normal_right": "wood"
+      }
+    }
+  ]
+}

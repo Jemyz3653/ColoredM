@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/potted_allium",
+  "textures": {
+    "flowerpot": "coloredm:block/green_flower_pot",
+    "particle": "coloredm:block/green_flower_pot"
+  }
+}

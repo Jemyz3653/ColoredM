@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "map=false": {
+      "model": "coloredm:block/purple_item_frame"
+    },
+    "map=true": {
+      "model": "coloredm:block/purple_item_frame_map"
+    }
+  }
+}

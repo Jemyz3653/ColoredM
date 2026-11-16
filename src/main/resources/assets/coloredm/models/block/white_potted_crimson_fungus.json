@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/potted_crimson_fungus",
+  "textures": {
+    "flowerpot": "coloredm:block/white_flower_pot",
+    "particle": "coloredm:block/white_flower_pot"
+  }
+}

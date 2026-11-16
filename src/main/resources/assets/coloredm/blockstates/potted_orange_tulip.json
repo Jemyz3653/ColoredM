@@ -1,0 +1,52 @@
+{
+  "variants": {
+    "color=white": {
+      "model": "coloredm:block/white_potted_orange_tulip"
+    },
+    "color=orange": {
+      "model": "coloredm:block/orange_potted_orange_tulip"
+    },
+    "color=magenta": {
+      "model": "coloredm:block/magenta_potted_orange_tulip"
+    },
+    "color=light_blue": {
+      "model": "coloredm:block/light_blue_potted_orange_tulip"
+    },
+    "color=yellow": {
+      "model": "coloredm:block/yellow_potted_orange_tulip"
+    },
+    "color=lime": {
+      "model": "coloredm:block/lime_potted_orange_tulip"
+    },
+    "color=pink": {
+      "model": "coloredm:block/pink_potted_orange_tulip"
+    },
+    "color=gray": {
+      "model": "coloredm:block/gray_potted_orange_tulip"
+    },
+    "color=light_gray": {
+      "model": "coloredm:block/light_gray_potted_orange_tulip"
+    },
+    "color=cyan": {
+      "model": "coloredm:block/cyan_potted_orange_tulip"
+    },
+    "color=purple": {
+      "model": "coloredm:block/purple_potted_orange_tulip"
+    },
+    "color=blue": {
+      "model": "coloredm:block/blue_potted_orange_tulip"
+    },
+    "color=brown": {
+      "model": "coloredm:block/brown_potted_orange_tulip"
+    },
+    "color=green": {
+      "model": "coloredm:block/green_potted_orange_tulip"
+    },
+    "color=red": {
+      "model": "coloredm:block/red_potted_orange_tulip"
+    },
+    "color=black": {
+      "model": "coloredm:block/black_potted_orange_tulip"
+    }
+  }
+}

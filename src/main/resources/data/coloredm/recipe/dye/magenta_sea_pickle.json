@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:crafting_transmute",
+  "category": "misc",
+  "group": "coloredm_sea_pickle",
+  "input": "#coloredm:dyeable/sea_pickle",
+  "material": "minecraft:magenta_dye",
+  "result": {
+    "id": "coloredm:magenta_sea_pickle"
+  }
+}

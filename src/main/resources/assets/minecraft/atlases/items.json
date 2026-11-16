@@ -1,0 +1,15 @@
+{
+  "sources": [
+    {
+      "type": "coloredm:dyed",
+      "textures": {
+        "minecraft:item/flower_pot": "terracotta",
+        "minecraft:item/sea_pickle": "pickle",
+        "minecraft:item/lantern": "flame",
+        "minecraft:item/item_frame": "wood",
+        "minecraft:item/saddle": "leather",
+        "minecraft:item/water_bucket": "water"
+      }
+    }
+  ]
+}

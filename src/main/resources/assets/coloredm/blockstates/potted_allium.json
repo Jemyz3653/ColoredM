@@ -1,0 +1,52 @@
+{
+  "variants": {
+    "color=white": {
+      "model": "coloredm:block/white_potted_allium"
+    },
+    "color=orange": {
+      "model": "coloredm:block/orange_potted_allium"
+    },
+    "color=magenta": {
+      "model": "coloredm:block/magenta_potted_allium"
+    },
+    "color=light_blue": {
+      "model": "coloredm:block/light_blue_potted_allium"
+    },
+    "color=yellow": {
+      "model": "coloredm:block/yellow_potted_allium"
+    },
+    "color=lime": {
+      "model": "coloredm:block/lime_potted_allium"
+    },
+    "color=pink": {
+      "model": "coloredm:block/pink_potted_allium"
+    },
+    "color=gray": {
+      "model": "coloredm:block/gray_potted_allium"
+    },
+    "color=light_gray": {
+      "model": "coloredm:block/light_gray_potted_allium"
+    },
+    "color=cyan": {
+      "model": "coloredm:block/cyan_potted_allium"
+    },
+    "color=purple": {
+      "model": "coloredm:block/purple_potted_allium"
+    },
+    "color=blue": {
+      "model": "coloredm:block/blue_potted_allium"
+    },
+    "color=brown": {
+      "model": "coloredm:block/brown_potted_allium"
+    },
+    "color=green": {
+      "model": "coloredm:block/green_potted_allium"
+    },
+    "color=red": {
+      "model": "coloredm:block/red_potted_allium"
+    },
+    "color=black": {
+      "model": "coloredm:block/black_potted_allium"
+    }
+  }
+}

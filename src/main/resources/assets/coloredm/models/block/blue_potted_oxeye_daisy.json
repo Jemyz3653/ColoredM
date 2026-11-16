@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/potted_oxeye_daisy",
+  "textures": {
+    "flowerpot": "coloredm:block/blue_flower_pot",
+    "particle": "coloredm:block/blue_flower_pot"
+  }
+}

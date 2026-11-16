@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:crafting_transmute",
+  "category": "misc",
+  "group": "coloredm_water_bucket",
+  "input": "#coloredm:dyeable/water_bucket",
+  "material": "minecraft:red_dye",
+  "result": {
+    "id": "coloredm:red_water_bucket"
+  }
+}

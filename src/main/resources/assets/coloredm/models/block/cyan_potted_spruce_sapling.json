@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/potted_spruce_sapling",
+  "textures": {
+    "flowerpot": "coloredm:block/cyan_flower_pot",
+    "particle": "coloredm:block/cyan_flower_pot"
+  }
+}

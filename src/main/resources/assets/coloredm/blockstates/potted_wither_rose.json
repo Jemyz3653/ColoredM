@@ -1,0 +1,52 @@
+{
+  "variants": {
+    "color=white": {
+      "model": "coloredm:block/white_potted_wither_rose"
+    },
+    "color=orange": {
+      "model": "coloredm:block/orange_potted_wither_rose"
+    },
+    "color=magenta": {
+      "model": "coloredm:block/magenta_potted_wither_rose"
+    },
+    "color=light_blue": {
+      "model": "coloredm:block/light_blue_potted_wither_rose"
+    },
+    "color=yellow": {
+      "model": "coloredm:block/yellow_potted_wither_rose"
+    },
+    "color=lime": {
+      "model": "coloredm:block/lime_potted_wither_rose"
+    },
+    "color=pink": {
+      "model": "coloredm:block/pink_potted_wither_rose"
+    },
+    "color=gray": {
+      "model": "coloredm:block/gray_potted_wither_rose"
+    },
+    "color=light_gray": {
+      "model": "coloredm:block/light_gray_potted_wither_rose"
+    },
+    "color=cyan": {
+      "model": "coloredm:block/cyan_potted_wither_rose"
+    },
+    "color=purple": {
+      "model": "coloredm:block/purple_potted_wither_rose"
+    },
+    "color=blue": {
+      "model": "coloredm:block/blue_potted_wither_rose"
+    },
+    "color=brown": {
+      "model": "coloredm:block/brown_potted_wither_rose"
+    },
+    "color=green": {
+      "model": "coloredm:block/green_potted_wither_rose"
+    },
+    "color=red": {
+      "model": "coloredm:block/red_potted_wither_rose"
+    },
+    "color=black": {
+      "model": "coloredm:block/black_potted_wither_rose"
+    }
+  }
+}

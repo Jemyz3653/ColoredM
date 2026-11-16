@@ -1,0 +1,52 @@
+{
+  "variants": {
+    "color=white": {
+      "model": "coloredm:block/white_potted_crimson_fungus"
+    },
+    "color=orange": {
+      "model": "coloredm:block/orange_potted_crimson_fungus"
+    },
+    "color=magenta": {
+      "model": "coloredm:block/magenta_potted_crimson_fungus"
+    },
+    "color=light_blue": {
+      "model": "coloredm:block/light_blue_potted_crimson_fungus"
+    },
+    "color=yellow": {
+      "model": "coloredm:block/yellow_potted_crimson_fungus"
+    },
+    "color=lime": {
+      "model": "coloredm:block/lime_potted_crimson_fungus"
+    },
+    "color=pink": {
+      "model": "coloredm:block/pink_potted_crimson_fungus"
+    },
+    "color=gray": {
+      "model": "coloredm:block/gray_potted_crimson_fungus"
+    },
+    "color=light_gray": {
+      "model": "coloredm:block/light_gray_potted_crimson_fungus"
+    },
+    "color=cyan": {
+      "model": "coloredm:block/cyan_potted_crimson_fungus"
+    },
+    "color=purple": {
+      "model": "coloredm:block/purple_potted_crimson_fungus"
+    },
+    "color=blue": {
+      "model": "coloredm:block/blue_potted_crimson_fungus"
+    },
+    "color=brown": {
+      "model": "coloredm:block/brown_potted_crimson_fungus"
+    },
+    "color=green": {
+      "model": "coloredm:block/green_potted_crimson_fungus"
+    },
+    "color=red": {
+      "model": "coloredm:block/red_potted_crimson_fungus"
+    },
+    "color=black": {
+      "model": "coloredm:block/black_potted_crimson_fungus"
+    }
+  }
+}

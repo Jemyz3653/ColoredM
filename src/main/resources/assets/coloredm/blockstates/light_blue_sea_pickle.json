@@ -1,0 +1,140 @@
+{
+  "variants": {
+    "pickles=1,waterlogged=false": [
+      {
+        "model": "coloredm:block/light_blue_dead_sea_pickle"
+      },
+      {
+        "model": "coloredm:block/light_blue_dead_sea_pickle",
+        "y": 90
+      },
+      {
+        "model": "coloredm:block/light_blue_dead_sea_pickle",
+        "y": 180
+      },
+      {
+        "model": "coloredm:block/light_blue_dead_sea_pickle",
+        "y": 270
+      }
+    ],
+    "pickles=1,waterlogged=true": [
+      {
+        "model": "coloredm:block/light_blue_sea_pickle"
+      },
+      {
+        "model": "coloredm:block/light_blue_sea_pickle",
+        "y": 90
+      },
+      {
+        "model": "coloredm:block/light_blue_sea_pickle",
+        "y": 180
+      },
+      {
+        "model": "coloredm:block/light_blue_sea_pickle",
+        "y": 270
+      }
+    ],
+    "pickles=2,waterlogged=false": [
+      {
+        "model": "coloredm:block/light_blue_two_dead_sea_pickles"
+      },
+      {
+        "model": "coloredm:block/light_blue_two_dead_sea_pickles",
+        "y": 90
+      },
+      {
+        "model": "coloredm:block/light_blue_two_dead_sea_pickles",
+        "y": 180
+      },
+      {
+        "model": "coloredm:block/light_blue_two_dead_sea_pickles",
+        "y": 270
+      }
+    ],
+    "pickles=2,waterlogged=true": [
+      {
+        "model": "coloredm:block/light_blue_two_sea_pickles"
+      },
+      {
+        "model": "coloredm:block/light_blue_two_sea_pickles",
+        "y": 90
+      },
+      {
+        "model": "coloredm:block/light_blue_two_sea_pickles",
+        "y": 180
+      },
+      {
+        "model": "coloredm:block/light_blue_two_sea_pickles",
+        "y": 270
+      }
+    ],
+    "pickles=3,waterlogged=false": [
+      {
+        "model": "coloredm:block/light_blue_three_dead_sea_pickles"
+      },
+      {
+        "model": "coloredm:block/light_blue_three_dead_sea_pickles",
+        "y": 90
+      },
+      {
+        "model": "coloredm:block/light_blue_three_dead_sea_pickles",
+        "y": 180
+      },
+      {
+        "model": "coloredm:block/light_blue_three_dead_sea_pickles",
+        "y": 270
+      }
+    ],
+    "pickles=3,waterlogged=true": [
+      {
+        "model": "coloredm:block/light_blue_three_sea_pickles"
+      },
+      {
+        "model": "coloredm:block/light_blue_three_sea_pickles",
+        "y": 90
+      },
+      {
+        "model": "coloredm:block/light_blue_three_sea_pickles",
+        "y": 180
+      },
+      {
+        "model": "coloredm:block/light_blue_three_sea_pickles",
+        "y": 270
+      }
+    ],
+    "pickles=4,waterlogged=false": [
+      {
+        "model": "coloredm:block/light_blue_four_dead_sea_pickles"
+      },
+      {
+        "model": "coloredm:block/light_blue_four_dead_sea_pickles",
+        "y": 90
+      },
+      {
+        "model": "coloredm:block/light_blue_four_dead_sea_pickles",
+        "y": 180
+      },
+      {
+        "model": "coloredm:block/light_blue_four_dead_sea_pickles",
+        "y": 270
+      }
+    ],
+    "pickles=4,waterlogged=true": [
+      {
+        "model": "coloredm:block/light_blue_four_sea_pickles"
+      },
+      {
+        "model": "coloredm:block/light_blue_four_sea_pickles",
+        "y": 90
+      },
+      {
+        "model": "coloredm:block/light_blue_four_sea_pickles",
+        "y": 180
+      },
+      {
+        "model": "coloredm:block/light_blue_four_sea_pickles",
+        "y": 270
+      }
+    ]
+  }
+}

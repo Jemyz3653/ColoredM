@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/potted_fern",
+  "textures": {
+    "flowerpot": "coloredm:block/brown_flower_pot",
+    "particle": "coloredm:block/brown_flower_pot"
+  }
+}

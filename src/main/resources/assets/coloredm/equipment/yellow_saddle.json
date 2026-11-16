@@ -1,0 +1,54 @@
+{
+  "layers": {
+    "camel_husk_saddle": [
+      {
+        "texture": "coloredm:yellow_saddle"
+      }
+    ],
+    "camel_saddle": [
+      {
+        "texture": "coloredm:yellow_saddle"
+      }
+    ],
+    "donkey_saddle": [
+      {
+        "texture": "coloredm:yellow_saddle"
+      }
+    ],
+    "horse_saddle": [
+      {
+        "texture": "coloredm:yellow_saddle"
+      }
+    ],
+    "mule_saddle": [
+      {
+        "texture": "coloredm:yellow_saddle"
+      }
+    ],
+    "nautilus_saddle": [
+      {
+        "texture": "coloredm:yellow_saddle"
+      }
+    ],
+    "pig_saddle": [
+      {
+        "texture": "coloredm:yellow_saddle"
+      }
+    ],
+    "skeleton_horse_saddle": [
+      {
+        "texture": "coloredm:yellow_saddle"
+      }
+    ],
+    "strider_saddle": [
+      {
+        "texture": "coloredm:yellow_saddle"
+      }
+    ],
+    "zombie_horse_saddle": [
+      {
+        "texture": "coloredm:yellow_saddle"
+      }
+    ]
+  }
+}

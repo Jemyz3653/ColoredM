@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:crafting_transmute",
+  "category": "misc",
+  "group": "coloredm_item_frame",
+  "input": "#coloredm:dyeable/item_frame",
+  "material": "minecraft:red_dye",
+  "result": {
+    "id": "coloredm:red_item_frame"
+  }
+}

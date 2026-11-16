@@ -1,0 +1,21 @@
+{
+  "values": [
+    "minecraft:water_bucket",
+    "coloredm:white_water_bucket",
+    "coloredm:orange_water_bucket",
+    "coloredm:magenta_water_bucket",
+    "coloredm:light_blue_water_bucket",
+    "coloredm:yellow_water_bucket",
+    "coloredm:lime_water_bucket",
+    "coloredm:pink_water_bucket",
+    "coloredm:gray_water_bucket",
+    "coloredm:light_gray_water_bucket",
+    "coloredm:cyan_water_bucket",
+    "coloredm:purple_water_bucket",
+    "coloredm:blue_water_bucket",
+    "coloredm:brown_water_bucket",
+    "coloredm:green_water_bucket",
+    "coloredm:red_water_bucket",
+    "coloredm:black_water_bucket"
+  ]
+}

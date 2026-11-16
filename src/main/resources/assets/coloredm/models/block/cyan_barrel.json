@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:block/barrel",
+  "textures": {
+    "top": "coloredm:block/cyan_barrel_top",
+    "bottom": "coloredm:block/cyan_barrel_bottom",
+    "side": "coloredm:block/cyan_barrel_side",
+    "particle": "coloredm:block/cyan_barrel_side"
+  }
+}
