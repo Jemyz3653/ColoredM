@@ -8,7 +8,8 @@
         "minecraft:item/lantern": "flame",
         "minecraft:item/item_frame": "wood",
         "minecraft:item/saddle": "leather",
-        "minecraft:item/water_bucket": "water"
+        "minecraft:item/water_bucket": "water",
+        "minecraft:item/oak_door": "wood"
       }
     }
   ]

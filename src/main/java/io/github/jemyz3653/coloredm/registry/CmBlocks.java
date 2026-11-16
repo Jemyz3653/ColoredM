@@ -6,11 +6,14 @@ import io.github.jemyz3653.coloredm.block.ColoredBarrelBlock;
 import io.github.jemyz3653.coloredm.block.ColoredChestBlock;
 import io.github.jemyz3653.coloredm.block.ColoredCraftingTableBlock;
 import io.github.jemyz3653.coloredm.block.ColoredDecoratedPotBlock;
+import io.github.jemyz3653.coloredm.block.ColoredDoorBlock;
 import io.github.jemyz3653.coloredm.block.ColoredFlowerPotBlock;
 import io.github.jemyz3653.coloredm.block.ColoredLadderBlock;
 import io.github.jemyz3653.coloredm.block.ColoredLanternBlock;
 import io.github.jemyz3653.coloredm.block.ColoredPottedBlock;
+import io.github.jemyz3653.coloredm.block.ColoredSandBlock;
 import io.github.jemyz3653.coloredm.block.ColoredSeaPickleBlock;
+import io.github.jemyz3653.coloredm.block.ColoredTrapDoorBlock;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.EnumMap;
@@ -158,6 +161,9 @@ public final class CmBlocks {
       family(Family.LADDER, Blocks.LADDER, true, ColoredLadderBlock::new);
       family(Family.LANTERN, Blocks.LANTERN, false, ColoredLanternBlock::new);
       family(Family.SEA_PICKLE, Blocks.SEA_PICKLE, true, ColoredSeaPickleBlock::new);
+      family(Family.DOOR, Blocks.OAK_DOOR, true, ColoredDoorBlock::new);
+      family(Family.TRAPDOOR, Blocks.OAK_TRAPDOOR, true, ColoredTrapDoorBlock::new);
+      family(Family.SAND, Blocks.SAND, true, ColoredSandBlock::new);
       ArrayList<FlowerPotBlock> var0 = new ArrayList<>();
 
       for (Block var2 : BuiltInRegistries.BLOCK) {

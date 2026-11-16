@@ -1,21 +1,19 @@
-# ColoredM 1.0.1
+# ColoredM
 
-Проект восстановлен из релизного JAR ColoredM 1.0.1 для Minecraft 26.3.
+ColoredM adds 16 dye colors to blocks and items in Minecraft 26.3 on Fabric. The colors follow the textures in your active resource pack.
 
-- `src/main/java` содержит 46 Java-файлов, декомпилированных Vineflower. В нескольких местах пришлось восстановить параметры типов и приведения для Mixin. Имена части локальных переменных и комментарии из исходного проекта в JAR отсутствуют.
-- `src/main/resources` содержит 1 868 файлов из оригинального JAR, включая модели, текстуры, рецепты, локализации и настройки Mixin. Файлы ресурсов совпадают побайтно с релизом.
-- В проекте сохранены идентификаторы мода и исходная лицензия MIT.
+## ColoredM 1.2.0
 
-## Сборка
+- Right-click an oak door, oak trapdoor, or ordinary sand with dye. The same dyeing works at a crafting table and on already colored variants.
+- Both halves of a door change color together. Doors and trapdoors retain their orientation, open state, and redstone behavior. Trapdoors can be waterlogged.
+- Colored sand falls like vanilla sand and can be smelted into glass.
 
-Понадобится JDK 25. В PowerShell из папки проекта выполни команду.
+The mod also supports flower pots, decorated pots, chests, barrels, crafting tables, ladders, lanterns, sea pickles, item frames, saddles, and water.
 
-```powershell
-.\gradlew.bat build
-```
+## Installing and building
 
-В Linux и macOS используй `./gradlew build`. Gradle скачивает Minecraft 26.3, Fabric Loader 0.19.5 и Fabric API 0.163.0+26.3. Готовый мод появляется в `build/libs/coloredm-1.0.1.jar`.
+Install Fabric API and the same ColoredM JAR on the client and server. For singleplayer, install them in the client's `mods` folder.
 
-Исходники успешно скомпилированы через `javac` 25. Пересобранный JAR проверен на клиенте и выделенном сервере Minecraft 26.3 с Lily Bloom 1.3.0. Цветная кувшинка в горшке и цветной сундук отображались в игре, содержимое сундука подтвердилось на сервере.
+Build with JDK 25 and `./gradlew build` (Windows PowerShell: `.\gradlew.bat build`). The mod JAR is `build/libs/coloredm-1.2.0+26.3.jar`. To regenerate the 1.2.0 resource files, run `python tools/generate_colored_blocks.py` from the project directory.
 
-Полный запуск Gradle в среде восстановления остановился при скачивании Fabric Loom.
+The source tree was originally reconstructed from the released 1.0.0 and 1.0.1 JARs. Author: Jemyz3653. MIT License.

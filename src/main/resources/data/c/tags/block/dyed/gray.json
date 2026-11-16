@@ -7,6 +7,9 @@
     "coloredm:gray_crafting_table",
     "coloredm:gray_ladder",
     "coloredm:gray_lantern",
-    "coloredm:gray_sea_pickle"
+    "coloredm:gray_sea_pickle",
+    "coloredm:gray_door",
+    "coloredm:gray_trapdoor",
+    "coloredm:gray_sand"
   ]
 }

@@ -10,6 +10,9 @@
     "coloredm:green_sea_pickle",
     "coloredm:green_item_frame",
     "coloredm:green_saddle",
-    "coloredm:green_water_bucket"
+    "coloredm:green_water_bucket",
+    "coloredm:green_door",
+    "coloredm:green_trapdoor",
+    "coloredm:green_sand"
   ]
 }

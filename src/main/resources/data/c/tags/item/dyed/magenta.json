@@ -10,6 +10,9 @@
     "coloredm:magenta_sea_pickle",
     "coloredm:magenta_item_frame",
     "coloredm:magenta_saddle",
-    "coloredm:magenta_water_bucket"
+    "coloredm:magenta_water_bucket",
+    "coloredm:magenta_door",
+    "coloredm:magenta_trapdoor",
+    "coloredm:magenta_sand"
   ]
 }

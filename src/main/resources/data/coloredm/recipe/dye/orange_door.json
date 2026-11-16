@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:crafting_transmute",
+  "category": "building",
+  "group": "coloredm_door",
+  "input": "#coloredm:dyeable/door",
+  "material": "minecraft:orange_dye",
+  "result": {
+    "id": "coloredm:orange_door"
+  }
+}

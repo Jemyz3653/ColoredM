@@ -10,6 +10,9 @@
     "coloredm:black_sea_pickle",
     "coloredm:black_item_frame",
     "coloredm:black_saddle",
-    "coloredm:black_water_bucket"
+    "coloredm:black_water_bucket",
+    "coloredm:black_door",
+    "coloredm:black_trapdoor",
+    "coloredm:black_sand"
   ]
 }

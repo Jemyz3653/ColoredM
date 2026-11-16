@@ -7,6 +7,9 @@
     "coloredm:blue_crafting_table",
     "coloredm:blue_ladder",
     "coloredm:blue_lantern",
-    "coloredm:blue_sea_pickle"
+    "coloredm:blue_sea_pickle",
+    "coloredm:blue_door",
+    "coloredm:blue_trapdoor",
+    "coloredm:blue_sand"
   ]
 }

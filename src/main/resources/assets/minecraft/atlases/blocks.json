@@ -15,7 +15,11 @@
         "minecraft:block/flower_pot": "terracotta",
         "minecraft:block/sea_pickle": "pickle",
         "minecraft:block/lantern": "flame",
-        "minecraft:block/birch_planks": "birch"
+        "minecraft:block/birch_planks": "birch",
+        "minecraft:block/oak_door_bottom": "wood",
+        "minecraft:block/oak_door_top": "wood",
+        "minecraft:block/oak_trapdoor": "wood",
+        "minecraft:block/sand": "all"
       }
     }
   ]

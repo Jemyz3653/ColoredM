@@ -91,6 +91,9 @@ public final class ColoredM implements ModInitializer {
          case LADDER -> Blocks.LADDER;
          case LANTERN -> Blocks.LANTERN;
          case SEA_PICKLE -> Blocks.SEA_PICKLE;
+         case DOOR -> Blocks.OAK_DOOR;
+         case TRAPDOOR -> Blocks.OAK_TRAPDOOR;
+         case SAND -> Blocks.SAND;
       };
    }
 }

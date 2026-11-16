@@ -10,6 +10,9 @@
     "coloredm:blue_sea_pickle",
     "coloredm:blue_item_frame",
     "coloredm:blue_saddle",
-    "coloredm:blue_water_bucket"
+    "coloredm:blue_water_bucket",
+    "coloredm:blue_door",
+    "coloredm:blue_trapdoor",
+    "coloredm:blue_sand"
   ]
 }

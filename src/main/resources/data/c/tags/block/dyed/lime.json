@@ -7,6 +7,9 @@
     "coloredm:lime_crafting_table",
     "coloredm:lime_ladder",
     "coloredm:lime_lantern",
-    "coloredm:lime_sea_pickle"
+    "coloredm:lime_sea_pickle",
+    "coloredm:lime_door",
+    "coloredm:lime_trapdoor",
+    "coloredm:lime_sand"
   ]
 }

@@ -20,6 +20,7 @@ import net.minecraft.tags.EntityTypeTags;
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.BucketItem;
+import net.minecraft.world.item.DoubleHighBlockItem;
 import net.minecraft.world.item.DyeColor;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.Items;
@@ -54,11 +55,12 @@ public final class CmItems {
    }
 
    private static void blockItems(Family var0, UnaryOperator<Properties> var1) {
-      EnumMap var2 = new EnumMap<>(DyeColor.class);
+      EnumMap<DyeColor, Item> var2 = new EnumMap<>(DyeColor.class);
+      BiFunction<Block, Properties, Item> factory = var0 == Family.DOOR ? DoubleHighBlockItem::new : BlockItem::new;
 
       for (DyeColor var6 : DyeColor.values()) {
          Block var7 = CmBlocks.get(var0, var6);
-         var2.put(var6, blockItem(var7, BlockItem::new, var1.apply(new Properties())));
+         var2.put(var6, blockItem(var7, factory, var1.apply(new Properties())));
       }
 
       BLOCK_ITEMS.put(var0, Collections.unmodifiableMap(var2));
@@ -130,6 +132,9 @@ public final class CmItems {
       blockItems(Family.LADDER, var0 -> var0.cookingFuel(ContextIntProviders.COOKING_TIME_WOOD_BLOCKS));
       blockItems(Family.LANTERN, var0 -> var0);
       blockItems(Family.SEA_PICKLE, var0 -> var0.compostable(ContextIntProviders.COMPOSTABLE_MEDIUM));
+      blockItems(Family.DOOR, properties -> properties.cookingFuel(ContextIntProviders.COOKING_TIME_WOOD_BLOCKS));
+      blockItems(Family.TRAPDOOR, properties -> properties.cookingFuel(ContextIntProviders.COOKING_TIME_WOOD_BLOCKS));
+      blockItems(Family.SAND, UnaryOperator.identity());
 
       for (DyeColor var3 : DyeColor.values()) {
          ITEM_FRAMES.put(

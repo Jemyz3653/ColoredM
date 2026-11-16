@@ -7,6 +7,9 @@
     "coloredm:magenta_crafting_table",
     "coloredm:magenta_ladder",
     "coloredm:magenta_lantern",
-    "coloredm:magenta_sea_pickle"
+    "coloredm:magenta_sea_pickle",
+    "coloredm:magenta_door",
+    "coloredm:magenta_trapdoor",
+    "coloredm:magenta_sand"
   ]
 }

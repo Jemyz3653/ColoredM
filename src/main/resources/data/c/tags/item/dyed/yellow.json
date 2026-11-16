@@ -10,6 +10,9 @@
     "coloredm:yellow_sea_pickle",
     "coloredm:yellow_item_frame",
     "coloredm:yellow_saddle",
-    "coloredm:yellow_water_bucket"
+    "coloredm:yellow_water_bucket",
+    "coloredm:yellow_door",
+    "coloredm:yellow_trapdoor",
+    "coloredm:yellow_sand"
   ]
 }

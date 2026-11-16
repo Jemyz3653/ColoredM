@@ -28,10 +28,12 @@ import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.ChestBlock;
+import net.minecraft.world.level.block.DoorBlock;
 import net.minecraft.world.level.block.FlowerPotBlock;
 import net.minecraft.world.level.block.entity.BlockEntity;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.properties.ChestType;
+import net.minecraft.world.level.block.state.properties.DoubleBlockHalf;
 import net.minecraft.world.level.block.state.properties.Property;
 import net.minecraft.world.level.gameevent.GameEvent;
 import net.minecraft.world.level.storage.TagValueInput;
@@ -68,6 +70,13 @@ public final class Dyeing {
       BlockState var7 = var1.getBlockState(var6);
       BlockState var8 = recolored(var7, var5);
       if (var8 != null && var0.mayUseItemAt(var6, var3.getDirection(), var4)) {
+         if (var7.getBlock() instanceof DoorBlock) {
+            BlockPos otherHalf = otherDoorHalf(var1, var6, var7);
+            if (otherHalf == null || !var0.mayUseItemAt(otherHalf, var3.getDirection(), var4)) {
+               return InteractionResult.PASS;
+            }
+         }
+
          if (!var1.isClientSide()) {
             apply(var1, var6, var7, var8);
             var1.playSound(null, var6, SoundEvents.DYE_USE, SoundSource.BLOCKS, 1.0F, 1.0F);
@@ -113,7 +122,13 @@ public final class Dyeing {
    public static void apply(Level var0, BlockPos var1, BlockState var2, BlockState var3) {
       BlockPos var4 = null;
       BlockState var5 = null;
-      if (var2.getBlock() instanceof ChestBlock && var2.hasProperty(ChestBlock.TYPE) && var2.getValue(ChestBlock.TYPE) != ChestType.SINGLE) {
+      if (var2.getBlock() instanceof DoorBlock) {
+         var4 = otherDoorHalf(var0, var1, var2);
+         if (var4 == null) {
+            return;
+         }
+         var5 = var0.getBlockState(var4);
+      } else if (var2.getBlock() instanceof ChestBlock && var2.hasProperty(ChestBlock.TYPE) && var2.getValue(ChestBlock.TYPE) != ChestType.SINGLE) {
          BlockPos var6 = var1.relative(ChestBlock.getConnectedDirection(var2));
          BlockState var7 = var0.getBlockState(var6);
          if (var7.is(var2.getBlock())) {
@@ -131,6 +146,13 @@ public final class Dyeing {
       var0.updateNeighborsAt(var1, var3.getBlock());
    }
 
+   private static @Nullable BlockPos otherDoorHalf(Level level, BlockPos pos, BlockState state) {
+      DoubleBlockHalf half = state.getValue(DoorBlock.HALF);
+      BlockPos otherPos = half == DoubleBlockHalf.LOWER ? pos.above() : pos.below();
+      BlockState other = level.getBlockState(otherPos);
+      return other.is(state.getBlock()) && other.getValue(DoorBlock.HALF) != half ? otherPos : null;
+   }
+
    private static void replace(Level var0, BlockPos var1, BlockState var2, BlockState var3) {
       BlockEntity var4 = var0.getBlockEntity(var1);
       CompoundTag var5 = null;
@@ -141,7 +163,8 @@ public final class Dyeing {
          }
       }
 
-      var0.setBlock(var1, var3, 274);
+      // The second half of a door or chest still has its old block ID here.
+      var0.setBlock(var1, var3, Block.UPDATE_CLIENTS | Block.UPDATE_KNOWN_SHAPE | Block.UPDATE_SKIP_BLOCK_ENTITY_SIDEEFFECTS);
       if (var5 != null) {
          BlockEntity var7 = var0.getBlockEntity(var1);
          if (var7 != null) {

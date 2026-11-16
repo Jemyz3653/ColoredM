@@ -10,6 +10,9 @@
     "coloredm:lime_sea_pickle",
     "coloredm:lime_item_frame",
     "coloredm:lime_saddle",
-    "coloredm:lime_water_bucket"
+    "coloredm:lime_water_bucket",
+    "coloredm:lime_door",
+    "coloredm:lime_trapdoor",
+    "coloredm:lime_sand"
   ]
 }

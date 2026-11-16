@@ -10,6 +10,9 @@
     "coloredm:light_gray_sea_pickle",
     "coloredm:light_gray_item_frame",
     "coloredm:light_gray_saddle",
-    "coloredm:light_gray_water_bucket"
+    "coloredm:light_gray_water_bucket",
+    "coloredm:light_gray_door",
+    "coloredm:light_gray_trapdoor",
+    "coloredm:light_gray_sand"
   ]
 }

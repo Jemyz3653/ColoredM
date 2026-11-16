@@ -28,6 +28,7 @@ tasks.withType(JavaCompile).configureEach {
 }
 
 jar {
+    archiveVersion = "${project.mod_version}+${project.minecraft_version}"
     from('LICENSE') {
         rename { 'LICENSE_coloredm' }
     }

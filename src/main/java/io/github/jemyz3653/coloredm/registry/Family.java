@@ -8,7 +8,10 @@ public enum Family {
    CRAFTING_TABLE("crafting_table"),
    LADDER("ladder"),
    LANTERN("lantern"),
-   SEA_PICKLE("sea_pickle");
+   SEA_PICKLE("sea_pickle"),
+   DOOR("door"),
+   TRAPDOOR("trapdoor"),
+   SAND("sand");
 
    private final String name;
 
