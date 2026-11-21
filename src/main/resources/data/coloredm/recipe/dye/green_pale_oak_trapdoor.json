@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:crafting_transmute",
+  "category": "building",
+  "group": "coloredm_pale_oak_trapdoor",
+  "input": "#coloredm:dyeable/pale_oak_trapdoor",
+  "material": "minecraft:green_dye",
+  "result": {
+    "id": "coloredm:green_pale_oak_trapdoor"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/jungle_trapdoor_top",
+  "textures": {
+    "texture": "coloredm:block/black_jungle_trapdoor"
+  }
+}

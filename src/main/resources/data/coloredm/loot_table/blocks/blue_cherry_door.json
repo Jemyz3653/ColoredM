@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "condition": {
+        "type": "minecraft:survives_explosion"
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "coloredm:blue_cherry_door",
+          "condition": {
+            "type": "minecraft:match_block",
+            "blocks": "coloredm:blue_cherry_door",
+            "state": {
+              "half": "lower"
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "random_sequence": "coloredm:blocks/blue_cherry_door"
+}

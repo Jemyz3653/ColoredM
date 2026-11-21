@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/acacia_door_bottom_right",
+  "textures": {
+    "bottom": "coloredm:block/brown_acacia_door_bottom",
+    "top": "coloredm:block/brown_acacia_door_top"
+  }
+}

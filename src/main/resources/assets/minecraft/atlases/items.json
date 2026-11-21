@@ -9,7 +9,24 @@
         "minecraft:item/item_frame": "wood",
         "minecraft:item/saddle": "leather",
         "minecraft:item/water_bucket": "water",
-        "minecraft:item/oak_door": "wood"
+        "minecraft:item/oak_door": "wood",
+        "minecraft:item/acacia_door": "wood",
+        "minecraft:item/bamboo_door": "wood",
+        "minecraft:item/birch_door": "wood",
+        "minecraft:item/cherry_door": "wood",
+        "minecraft:item/copper_door": "all",
+        "minecraft:item/crimson_door": "wood",
+        "minecraft:item/dark_oak_door": "wood",
+        "minecraft:item/exposed_copper_door": "all",
+        "minecraft:item/iron_door": "all",
+        "minecraft:item/jungle_door": "wood",
+        "minecraft:item/mangrove_door": "wood",
+        "minecraft:item/oxidized_copper_door": "all",
+        "minecraft:item/pale_oak_door": "wood",
+        "minecraft:item/poplar_door": "wood",
+        "minecraft:item/spruce_door": "wood",
+        "minecraft:item/warped_door": "wood",
+        "minecraft:item/weathered_copper_door": "all"
       }
     }
   ]

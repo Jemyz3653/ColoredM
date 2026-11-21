@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:crafting_transmute",
+  "category": "building",
+  "group": "coloredm_birch_door",
+  "input": "#coloredm:dyeable/birch_door",
+  "material": "minecraft:green_dye",
+  "result": {
+    "id": "coloredm:green_birch_door"
+  }
+}

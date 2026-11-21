@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "coloredm:item/purple_weathered_copper_door"
+  }
+}

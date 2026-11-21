@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cherry_trapdoor_top",
+  "textures": {
+    "texture": "coloredm:block/lime_cherry_trapdoor"
+  }
+}

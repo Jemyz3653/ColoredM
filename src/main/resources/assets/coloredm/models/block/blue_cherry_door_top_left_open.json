@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cherry_door_top_left_open",
+  "textures": {
+    "bottom": "coloredm:block/blue_cherry_door_bottom",
+    "top": "coloredm:block/blue_cherry_door_top"
+  }
+}

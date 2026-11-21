@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/warped_trapdoor_open",
+  "textures": {
+    "texture": "coloredm:block/purple_warped_trapdoor"
+  }
+}

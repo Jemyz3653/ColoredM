@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:crafting_transmute",
+  "category": "building",
+  "group": "coloredm_warped_trapdoor",
+  "input": "#coloredm:dyeable/warped_trapdoor",
+  "material": "minecraft:gray_dye",
+  "result": {
+    "id": "coloredm:gray_warped_trapdoor"
+  }
+}

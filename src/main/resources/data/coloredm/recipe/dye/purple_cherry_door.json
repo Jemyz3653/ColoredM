@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:crafting_transmute",
+  "category": "building",
+  "group": "coloredm_cherry_door",
+  "input": "#coloredm:dyeable/cherry_door",
+  "material": "minecraft:purple_dye",
+  "result": {
+    "id": "coloredm:purple_cherry_door"
+  }
+}

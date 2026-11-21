@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:crafting_transmute",
+  "category": "building",
+  "group": "coloredm_mangrove_door",
+  "input": "#coloredm:dyeable/mangrove_door",
+  "material": "minecraft:blue_dye",
+  "result": {
+    "id": "coloredm:blue_mangrove_door"
+  }
+}

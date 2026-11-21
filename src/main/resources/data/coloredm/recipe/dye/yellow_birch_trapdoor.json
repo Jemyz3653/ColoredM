@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:crafting_transmute",
+  "category": "building",
+  "group": "coloredm_birch_trapdoor",
+  "input": "#coloredm:dyeable/birch_trapdoor",
+  "material": "minecraft:yellow_dye",
+  "result": {
+    "id": "coloredm:yellow_birch_trapdoor"
+  }
+}

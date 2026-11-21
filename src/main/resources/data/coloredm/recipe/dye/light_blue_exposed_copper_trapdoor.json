@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:crafting_transmute",
+  "category": "building",
+  "group": "coloredm_exposed_copper_trapdoor",
+  "input": "#coloredm:dyeable/exposed_copper_trapdoor",
+  "material": "minecraft:light_blue_dye",
+  "result": {
+    "id": "coloredm:light_blue_exposed_copper_trapdoor"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/poplar_door_top_left",
+  "textures": {
+    "bottom": "coloredm:block/white_poplar_door_bottom",
+    "top": "coloredm:block/white_poplar_door_top"
+  }
+}

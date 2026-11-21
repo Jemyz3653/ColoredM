@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/crimson_trapdoor_open",
+  "textures": {
+    "texture": "coloredm:block/light_blue_crimson_trapdoor"
+  }
+}

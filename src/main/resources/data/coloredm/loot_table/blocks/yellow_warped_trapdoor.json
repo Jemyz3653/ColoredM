@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "condition": {
+        "type": "minecraft:survives_explosion"
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "coloredm:yellow_warped_trapdoor"
+        }
+      ]
+    }
+  ],
+  "random_sequence": "coloredm:blocks/yellow_warped_trapdoor"
+}

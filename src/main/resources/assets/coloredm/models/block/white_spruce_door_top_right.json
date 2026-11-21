@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/spruce_door_top_right",
+  "textures": {
+    "bottom": "coloredm:block/white_spruce_door_bottom",
+    "top": "coloredm:block/white_spruce_door_top"
+  }
+}

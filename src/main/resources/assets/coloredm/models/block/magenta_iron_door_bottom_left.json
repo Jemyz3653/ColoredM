@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/iron_door_bottom_left",
+  "textures": {
+    "bottom": "coloredm:block/magenta_iron_door_bottom",
+    "top": "coloredm:block/magenta_iron_door_top"
+  }
+}

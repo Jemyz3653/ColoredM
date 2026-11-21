@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/poplar_trapdoor_bottom",
+  "textures": {
+    "texture": "coloredm:block/gray_poplar_trapdoor"
+  }
+}

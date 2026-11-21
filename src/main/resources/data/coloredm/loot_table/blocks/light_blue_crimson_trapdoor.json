@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "condition": {
+        "type": "minecraft:survives_explosion"
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "coloredm:light_blue_crimson_trapdoor"
+        }
+      ]
+    }
+  ],
+  "random_sequence": "coloredm:blocks/light_blue_crimson_trapdoor"
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/oak_door_top_left",
+  "textures": {
+    "bottom": "coloredm:block/green_oak_door_bottom",
+    "top": "coloredm:block/green_oak_door_top"
+  }
+}

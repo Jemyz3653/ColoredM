@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/spruce_trapdoor_open",
+  "textures": {
+    "texture": "coloredm:block/gray_spruce_trapdoor"
+  }
+}

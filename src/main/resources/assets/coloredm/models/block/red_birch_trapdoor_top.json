@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/birch_trapdoor_top",
+  "textures": {
+    "texture": "coloredm:block/red_birch_trapdoor"
+  }
+}

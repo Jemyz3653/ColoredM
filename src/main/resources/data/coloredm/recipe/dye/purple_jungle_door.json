@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:crafting_transmute",
+  "category": "building",
+  "group": "coloredm_jungle_door",
+  "input": "#coloredm:dyeable/jungle_door",
+  "material": "minecraft:purple_dye",
+  "result": {
+    "id": "coloredm:purple_jungle_door"
+  }
+}

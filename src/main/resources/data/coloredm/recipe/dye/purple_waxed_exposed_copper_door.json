@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:crafting_transmute",
+  "category": "building",
+  "group": "coloredm_waxed_exposed_copper_door",
+  "input": "#coloredm:dyeable/waxed_exposed_copper_door",
+  "material": "minecraft:purple_dye",
+  "result": {
+    "id": "coloredm:purple_waxed_exposed_copper_door"
+  }
+}

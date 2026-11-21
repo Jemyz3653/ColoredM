@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/bamboo_door_bottom_right_open",
+  "textures": {
+    "bottom": "coloredm:block/gray_bamboo_door_bottom",
+    "top": "coloredm:block/gray_bamboo_door_top"
+  }
+}

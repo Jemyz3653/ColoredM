@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "condition": {
+        "type": "minecraft:survives_explosion"
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "coloredm:green_waxed_oxidized_copper_door",
+          "condition": {
+            "type": "minecraft:match_block",
+            "blocks": "coloredm:green_waxed_oxidized_copper_door",
+            "state": {
+              "half": "lower"
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "random_sequence": "coloredm:blocks/green_waxed_oxidized_copper_door"
+}

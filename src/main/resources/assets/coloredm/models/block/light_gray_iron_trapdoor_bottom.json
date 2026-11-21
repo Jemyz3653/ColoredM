@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/iron_trapdoor_bottom",
+  "textures": {
+    "texture": "coloredm:block/light_gray_iron_trapdoor"
+  }
+}

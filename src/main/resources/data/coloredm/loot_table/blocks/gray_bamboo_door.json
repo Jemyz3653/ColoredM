@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "condition": {
+        "type": "minecraft:survives_explosion"
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "coloredm:gray_bamboo_door",
+          "condition": {
+            "type": "minecraft:match_block",
+            "blocks": "coloredm:gray_bamboo_door",
+            "state": {
+              "half": "lower"
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "random_sequence": "coloredm:blocks/gray_bamboo_door"
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/bamboo_trapdoor_bottom",
+  "textures": {
+    "texture": "coloredm:block/brown_bamboo_trapdoor"
+  }
+}

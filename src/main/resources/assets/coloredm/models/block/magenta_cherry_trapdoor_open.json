@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cherry_trapdoor_open",
+  "textures": {
+    "texture": "coloredm:block/magenta_cherry_trapdoor"
+  }
+}

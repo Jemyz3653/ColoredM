@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:crafting_transmute",
+  "category": "building",
+  "group": "coloredm_mangrove_trapdoor",
+  "input": "#coloredm:dyeable/mangrove_trapdoor",
+  "material": "minecraft:black_dye",
+  "result": {
+    "id": "coloredm:black_mangrove_trapdoor"
+  }
+}

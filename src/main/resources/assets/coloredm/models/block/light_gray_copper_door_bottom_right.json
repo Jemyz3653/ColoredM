@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/copper_door_bottom_right",
+  "textures": {
+    "bottom": "coloredm:block/light_gray_copper_door_bottom",
+    "top": "coloredm:block/light_gray_copper_door_top"
+  }
+}

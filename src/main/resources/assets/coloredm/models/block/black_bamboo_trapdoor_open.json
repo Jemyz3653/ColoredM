@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/bamboo_trapdoor_open",
+  "textures": {
+    "texture": "coloredm:block/black_bamboo_trapdoor"
+  }
+}

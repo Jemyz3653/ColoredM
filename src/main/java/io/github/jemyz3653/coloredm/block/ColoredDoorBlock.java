@@ -9,7 +9,11 @@ public final class ColoredDoorBlock extends DoorBlock implements Colored {
    private final DyeColor color;
 
    public ColoredDoorBlock(DyeColor color, Properties properties) {
-      super(BlockSetType.OAK, properties);
+      this(color, BlockSetType.OAK, properties);
+   }
+
+   public ColoredDoorBlock(DyeColor color, BlockSetType type, Properties properties) {
+      super(type, properties);
       this.color = color;
    }
 

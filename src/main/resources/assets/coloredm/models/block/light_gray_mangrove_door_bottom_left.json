@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/mangrove_door_bottom_left",
+  "textures": {
+    "bottom": "coloredm:block/light_gray_mangrove_door_bottom",
+    "top": "coloredm:block/light_gray_mangrove_door_top"
+  }
+}

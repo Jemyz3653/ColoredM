@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/jungle_door_top_right_open",
+  "textures": {
+    "bottom": "coloredm:block/yellow_jungle_door_bottom",
+    "top": "coloredm:block/yellow_jungle_door_top"
+  }
+}

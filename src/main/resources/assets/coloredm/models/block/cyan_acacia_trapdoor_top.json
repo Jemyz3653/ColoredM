@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/acacia_trapdoor_top",
+  "textures": {
+    "texture": "coloredm:block/cyan_acacia_trapdoor"
+  }
+}

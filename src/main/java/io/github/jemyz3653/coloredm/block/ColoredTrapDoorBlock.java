@@ -9,7 +9,11 @@ public final class ColoredTrapDoorBlock extends TrapDoorBlock implements Colored
    private final DyeColor color;
 
    public ColoredTrapDoorBlock(DyeColor color, Properties properties) {
-      super(BlockSetType.OAK, properties);
+      this(color, BlockSetType.OAK, properties);
+   }
+
+   public ColoredTrapDoorBlock(DyeColor color, BlockSetType type, Properties properties) {
+      super(type, properties);
       this.color = color;
    }
 

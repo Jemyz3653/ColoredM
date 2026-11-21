@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/warped_door_bottom_right_open",
+  "textures": {
+    "bottom": "coloredm:block/brown_warped_door_bottom",
+    "top": "coloredm:block/brown_warped_door_top"
+  }
+}

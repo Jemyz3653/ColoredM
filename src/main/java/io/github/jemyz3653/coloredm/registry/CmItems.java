@@ -56,7 +56,8 @@ public final class CmItems {
 
    private static void blockItems(Family var0, UnaryOperator<Properties> var1) {
       EnumMap<DyeColor, Item> var2 = new EnumMap<>(DyeColor.class);
-      BiFunction<Block, Properties, Item> factory = var0 == Family.DOOR ? DoubleHighBlockItem::new : BlockItem::new;
+      BiFunction<Block, Properties, Item> factory = var0 == Family.DOOR || var0.id().endsWith("_door")
+            ? DoubleHighBlockItem::new : BlockItem::new;
 
       for (DyeColor var6 : DyeColor.values()) {
          Block var7 = CmBlocks.get(var0, var6);
@@ -135,6 +136,9 @@ public final class CmItems {
       blockItems(Family.DOOR, properties -> properties.cookingFuel(ContextIntProviders.COOKING_TIME_WOOD_BLOCKS));
       blockItems(Family.TRAPDOOR, properties -> properties.cookingFuel(ContextIntProviders.COOKING_TIME_WOOD_BLOCKS));
       blockItems(Family.SAND, UnaryOperator.identity());
+      for (Family family : Family.values()) {
+         if (!BLOCK_ITEMS.containsKey(family)) blockItems(family, UnaryOperator.identity());
+      }
 
       for (DyeColor var3 : DyeColor.values()) {
          ITEM_FRAMES.put(

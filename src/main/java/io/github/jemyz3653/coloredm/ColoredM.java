@@ -94,6 +94,8 @@ public final class ColoredM implements ModInitializer {
          case DOOR -> Blocks.OAK_DOOR;
          case TRAPDOOR -> Blocks.OAK_TRAPDOOR;
          case SAND -> Blocks.SAND;
+         default -> BuiltInRegistries.BLOCK.getValue(
+               net.minecraft.resources.Identifier.fromNamespaceAndPath("minecraft", var0.id()));
       };
    }
 }

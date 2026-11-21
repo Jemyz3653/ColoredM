@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "condition": {
+        "type": "minecraft:survives_explosion"
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "coloredm:lime_waxed_weathered_copper_door",
+          "condition": {
+            "type": "minecraft:match_block",
+            "blocks": "coloredm:lime_waxed_weathered_copper_door",
+            "state": {
+              "half": "lower"
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "random_sequence": "coloredm:blocks/lime_waxed_weathered_copper_door"
+}

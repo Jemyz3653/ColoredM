@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/mangrove_trapdoor_open",
+  "textures": {
+    "texture": "coloredm:block/white_mangrove_trapdoor"
+  }
+}

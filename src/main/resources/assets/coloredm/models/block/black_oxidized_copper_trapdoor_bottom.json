@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/oxidized_copper_trapdoor_bottom",
+  "textures": {
+    "texture": "coloredm:block/black_oxidized_copper_trapdoor"
+  }
+}

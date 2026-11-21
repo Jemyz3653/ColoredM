@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/spruce_door_top_left_open",
+  "textures": {
+    "bottom": "coloredm:block/lime_spruce_door_bottom",
+    "top": "coloredm:block/lime_spruce_door_top"
+  }
+}
